@@ -3,8 +3,8 @@ For Final Year Project.
 
 There are two sequential models(CNN) for fake 500 and 1000 currency detection.
 
-I also tested with pretrained models(ResNet,Inception v3, MobileNet) but there were cases of severe overfitting and fluctuations(spike formation) in test and valid accuracy graph so opted to go for sequential models(parameters tuned) which comparatively gave the best results out of all.
+I initially experimented with pretrained models like ResNet, Inception v3, and MobileNet. However, these models encountered significant overfitting issues and showed fluctuations, with spiking patterns in the test and validation accuracy graphs. Due to this, I opted for custom sequential models with tuned parameters, which yielded comparatively better results.
 
 Dataset for Fake notes for 500 and 1000 were obtained with the help of NRB(Nepal Rastra Bank).
 
-Do note that this was made entirely using Seq models along with limited datasets so there are still numerous parameters tuning needed to be done and more rigorous research to be conducted in order to improve its accuracy and make a more reliable model. This model is still in need to be subjected to imporvements and tunings.
+It’s important to note that this project relies on sequential models and a limited dataset, so there is room for further parameter tuning and extensive research to enhance accuracy and reliability. The current model still requires improvements and adjustments to achieve more robust performance.nts and tunings.
